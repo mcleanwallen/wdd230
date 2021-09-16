@@ -1,0 +1,42 @@
+
+#mainBody{
+    margin: auto;
+    max-width: 65%;
+    background-color: #8c0000;
+}
+
+body{
+    background-color: #b9ecff;
+}
+
+header{
+    padding: 5%;
+    color: whitesmoke;
+}
+
+main{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
+
+footer{
+    padding: 2%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.homePhoto{
+    width: 37%;
+    height: auto;
+    float: right;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+    font-size: 3.5em;
+    text-align: center;
+    padding: 22px;
+}

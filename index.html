@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Test Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Assignment Protal for Mac Allen in 
+        WDD230: Web Frontend Development at BYU-Idaho">
+        <title>McLean Allen Home</title>
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
-        <header>
-            <h1>
-                McLean W. Allen
-            </h1>
-            <img src='images/FamilyAtPark.png' alt='Family of three'>
-        </header>
-        <main>
-            <h2>
-                WDD230 - Assignment Portal
-            </h2>
-            <ul>
-                <li>Lesson 02: <a href='https://www.byui.edu' target='_blank'>Assignment Link</a></li>
-                <li>Lesson 03: <a href='https://www.byui.edu' target='_blank'>Assignment Link</a></li>
-                <li>Lesson 04: <a href='https://www.byui.edu' target='_blank'>Link</a> | <a href='https://www.byui.edu' target='_blank'>Link</a></li>
-            </ul>
-        </main>
-        <footer>
-            <div>&#169; <a id='currentYear'></a>> | McLean W. Allen | Colorado | BYU-Idaho Online</div>
-            <div>Last Updated: 15 September 2021 07:23</div>
-        </footer>
-    </body>
+        <div id="mainBody">
+            <header>
+                <img src="images/FamilyAtPark.png" class="homePhoto" alt="Family of three">
+                <h1>
+                    McLean W. Allen
+                </h1>
+            </header>
+            <main>
+                <h2>
+                    WDD230 - Assignment Portal
+                </h2>
+                <hr>
+                <ul>
+                    <li>Lesson 02: <a href="https://www.byui.edu" target="_blank">Assignment Link</a></li>
+                    <li>Lesson 03: <a href="https://www.byui.edu" target="_blank">Assignment Link</a></li>
+                    <li>Lesson 04: <a href="https://www.byui.edu" target="_blank">Link</a> | <a href="https://www.byui.edu" target="_blank">Link</a></li>
+                </ul>
+            </main>
+            <footer>
+                <div>&#169; <a id="currentYear"></a> | McLean W. Allen | Colorado | BYU-Idaho Online</div>
+                <div>Last Modified: <a id="lastModified"></a></div>
+            </footer>
+        </div>
+    </body>   
     <script src="js/index.js"></script>
 </html>
