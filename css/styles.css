@@ -1,3 +1,9 @@
+/*
+Author: Mclean Allen
+Related sheet: index.html
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 #mainBody{
     margin: auto;
@@ -7,6 +13,7 @@
 
 body{
     background-color: #b9ecff;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 header{
