@@ -25,6 +25,7 @@ main{
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 section{
@@ -34,6 +35,7 @@ section{
 
 img{
     padding: 5px;
+    justify-content: center auto;
 }
 
 h2 {
