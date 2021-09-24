@@ -1,8 +1,3 @@
-/*
-Author: Mclean Allen
-Related sheet: index.html
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 #mainBody{
@@ -22,24 +17,48 @@ header{
 }
 
 main{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: 1fr;
+    justify-items: center;
     background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 15px;
 }
 
+section{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+img{
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+}
+a:link{
+    color:blueviolet;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: hover;
+    color:orangered;
+}
+
 footer{
     padding: 2%;
     text-align: center;
     color: whitesmoke;
-}
-
-.homePhoto{
-    width: 300px;
-    height: auto;
-    float: right;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1{
