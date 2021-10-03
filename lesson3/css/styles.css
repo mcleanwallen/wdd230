@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Yaldevi&display=swap');
+/*    
+font-family: 'Playfair Display', serif;
+font-family: 'Yaldevi', sans-serif;
+*/
+
+:root {
+    --lightblue: #5b82ec;
+    --orange: #f8a700;
+    --blue: #011e2c;
+  }
+
+body {
+    background-color: var(--lightblue);
+    color: var(--blue);
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+footer {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    grid-column: 1/3;
+}
+h1, h2, h3, h4 {
+    font-family: 'Yaldevi', sans-serif;
+}
+li, p, a {
+    font-family: 'Playfair Display', serif;   
+}
+nav {
+    grid-column: 2/3;
+    display: inline;
+    width: 100%;
+    align-self: center;
+  }
+nav ul {
+    list-style: none;
+    text-align: center;
+    text-justify: center;
+}
+nav ul li {
+    font-size: larger;
+    display: inline;
+}
+nav ul li a {
+    font-size: 1.3em;
+    padding: .5em 1em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: var(--blue);
+}
+nav ul li a:hover {
+    color: var(--lightblue);
+    background-color: var(--orange);
+}
+
+main {
+    background-color: rgb(218, 216, 216);
+    padding: 1em;
+}
+
+.logo {
+    max-width: 400px;
+    height: auto;
+    justify-self: center;
+}
+
+#decidedSerif {
+    font-family: 'Playfair Display', serif;
+}
+
+#decidedSansSerif {
+    font-family: 'Yaldevi', sans-serif;
+}
