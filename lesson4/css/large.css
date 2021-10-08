@@ -1,0 +1,73 @@
+@media only screen and (min-width: 1050px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    .mainBody {
+        margin: auto;
+        max-width: 900px;
+    }
+    h1 {
+        grid-column: 2/3;
+        grid-row: 1 / 2;
+        padding-top: 70px;
+    }
+    h2 {
+        grid-column: 2/3;
+        grid-row: 1 /2;
+    }
+    nav {
+        grid-column: 1/3;
+        display: inline-block;
+        width: 100%;
+        align-self: center;
+        padding-left: 0px;
+      }
+    .navigation {
+        padding-left: 0px;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    nav ul {
+        list-style: none;
+        text-align: center;
+        text-justify: center;
+    }
+    nav ul li {
+        font-size: larger;
+        display: inline;
+    }
+    nav ul li a {
+        font-size: 1.3em;
+        padding: .5em 1em;
+        font-weight: bolder;
+        text-decoration: none;
+        color: var(--blue);
+    }
+    main {
+        grid-template-columns: repeat(5, 1fr);
+        background-color: rgb(218, 216, 216);
+        padding: 1em;
+        margin: auto;
+        max-width: 950px;
+    }
+    .weatherSummary {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .PrestonBanner {
+        grid-row: 1 / 2;
+        grid-column: 1 / 6;
+        width: 100%;
+    }
+    .weatherSummaryTitle {
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+        padding-left: 50px;
+        background-color: gray;
+        opacity: .8;
+        margin-left: 50px;
+    }
+    
+}

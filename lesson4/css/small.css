@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Yaldevi&display=swap');
+/*    
+font-family: 'Playfair Display', serif;
+font-family: 'Yaldevi', sans-serif;
+*/
+
+:root {
+    --lightblue: #5b82ec;
+    --orange: #f8a700;
+    --blue: #011e2c;
+  }
+
+body {
+    background-color: var(--lightblue);
+    color: var(--blue);
+}
+.logo {
+    max-width: 400px;
+    height: auto;
+    justify-self: center;
+}
+
+nav ul li a:hover {
+    color: var(--lightblue);
+    background-color: var(--orange);
+}
+/*nav {
+    margin: 0 auto;
+    max-width: 750px;
+}*/
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.navigation li:first-child {
+    display: block;
+}
+footer {
+    text-align: center;
+}
+h1, h2, h3, h4 {
+    font-family: 'Yaldevi', sans-serif;
+}
+li, p, a {
+    font-family: 'Playfair Display', serif;   
+}
+
