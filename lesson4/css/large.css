@@ -69,5 +69,15 @@
         opacity: .8;
         margin-left: 50px;
     }
+    .fiveDay {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .day {
+        grid-row: 2 /3;
+        background-color: gray;
+        height: 170px;
+        margin: 10px;
+    }
     
 }
