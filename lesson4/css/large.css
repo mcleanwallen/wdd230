@@ -26,9 +26,9 @@
     .navigation {
         padding-left: 0px;
     }
-    .navigation li:first-child {
+    /*.navigation li:first-child {
         display: none;
-    }
+    }*/
     nav ul {
         list-style: none;
         text-align: center;
@@ -79,5 +79,7 @@
         height: 170px;
         margin: 10px;
     }
-    
+    .hamButton {
+        display: none;
+    }
 }

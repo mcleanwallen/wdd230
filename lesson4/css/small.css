@@ -15,26 +15,35 @@ body {
     color: var(--blue);
 }
 .logo {
-    max-width: 400px;
+    max-width: 350px;
     height: auto;
-    justify-self: center;
+    display:block;
+    margin: auto;
 }
 
 nav ul li a:hover {
     color: var(--lightblue);
     background-color: var(--orange);
 }
-/*nav {
+nav {
     margin: 0 auto;
-    max-width: 750px;
-}*/
+    max-width: 1004px;
+    text-align: center;
+}
 .navigation {
     list-style: none;
     text-align: center;
     padding: 0;
 }
-.navigation li:first-child {
+li a {
     display: block;
+    width: 60px;
+  }
+.responsive {
+    display: none;
+}
+.hamButton {
+    text-decoration: none;
 }
 footer {
     text-align: center;
@@ -46,3 +55,6 @@ li, p, a {
     font-family: 'Playfair Display', serif;   
 }
 
+.headerTitle {
+    text-align: center;
+}
