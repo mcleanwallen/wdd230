@@ -2,6 +2,8 @@
     header {
         display: grid;
         grid-template-columns: 1fr 4fr;
+        max-width: 950px;
+        margin: auto;
     }
     .mainBody {
         margin: auto;
@@ -26,24 +28,19 @@
     .navigation {
         padding-left: 0px;
     }
-    /*.navigation li:first-child {
-        display: none;
-    }*/
-    nav ul {
-        list-style: none;
-        text-align: center;
-        text-justify: center;
-    }
-    nav ul li {
-        font-size: larger;
-        display: inline;
-    }
     nav ul li a {
+        display: flex;
         font-size: 1.3em;
-        padding: .5em 1em;
+        
         font-weight: bolder;
         text-decoration: none;
         color: var(--blue);
+    }
+    li {
+        padding:15px;
+        display:inline-block;
+        *display:inline; /*IE7*/
+        *zoom:1; /*IE7*/
     }
     main {
         grid-template-columns: repeat(5, 1fr);

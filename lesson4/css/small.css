@@ -20,10 +20,15 @@ body {
     display:block;
     margin: auto;
 }
-
+nav ul li a {
+    color:var(--blue);
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
 nav ul li a:hover {
-    color: var(--lightblue);
     background-color: var(--orange);
+    padding: 15px;
 }
 nav {
     margin: 0 auto;
@@ -37,13 +42,15 @@ nav {
 }
 li a {
     display: block;
-    width: 60px;
   }
 .responsive {
     display: none;
 }
 .hamButton {
+    color:var(--blue);
+    padding: 15px;
     text-decoration: none;
+    font-size: 1.5em;
 }
 footer {
     text-align: center;
