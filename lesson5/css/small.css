@@ -94,7 +94,15 @@ li, p, a {
     height: 170px;
     margin: 10px;
 }
+.contact-info{
+    display:grid;
+}
+.contact-words{
+    grid-row:1/2;
+    text-align: center;
+}
 iframe{
+    grid-row: 2/3;
     max-width: 95%;
     margin: auto;
     margin-left: 10px;
