@@ -11,8 +11,8 @@ document.getElementById('lastModified').innerHTML = d.getDate() + months[d.getMo
 
 function pancakeBanner() {
     const d = new Date();
-    var x = document.getElementsByClassName("saturdayPancakes");
-    if (d.getDay() !== "5") {
+    var x = document.getElementByClassName("saturdayPancakes");
+    if (d.getDay() !== 5) {
       x.style.display = "none";
     }
   } 

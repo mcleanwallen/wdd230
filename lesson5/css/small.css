@@ -65,3 +65,37 @@ li, p, a {
 .headerTitle {
     text-align: center;
 }
+.weatherSummary {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.PrestonCover {
+    grid-row: 1 / 2;
+    width: 100%;
+}
+.weatherSummaryTitle {
+    grid-row: 2/3;
+    background-color: gray;
+    margin: 10px 10px;
+    text-align: center;
+    height: 200px;
+}
+.fiveDayTitle{
+    background-color: gray;
+    margin: 10px 10px;
+    text-align: center;
+    height: 200px;
+}
+.articleImg{
+    max-width: 90%;
+}
+.day {
+    background-color: gray;
+    height: 170px;
+    margin: 10px;
+}
+iframe{
+    max-width: 95%;
+    margin: auto;
+    margin-left: 10px;
+}

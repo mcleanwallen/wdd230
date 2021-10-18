@@ -93,4 +93,20 @@
     .hamButton {
         display: none;
     }
+    .article {
+        padding: 10px;
+        background-color: gray;
+    }
+    .article img {
+        width: 250px;
+        height: auto;
+        float: right;
+    }
+    .contact-info{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
 }
