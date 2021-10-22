@@ -9,13 +9,11 @@ document.getElementById('lastModified').innerHTML = d.getDate() + months[d.getMo
 
 //Preston Pancakes Display
 
-function pancakeBanner() {
-    const d = new Date();
-    var x = document.getElementByClassName("saturdayPancakes");
-    if (d.getDay() !== 5) {
+
+  var x = document.getElementById("saturdayPancakes");
+  if (d.getDay() !== 5) {
       x.style.display = "none";
-    }
-  } 
+  }
 
 //Responsive Menu
 

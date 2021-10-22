@@ -20,6 +20,14 @@ body {
     display:block;
     margin: auto;
 }
+
+#saturdayPancakes{
+    text-align: center;
+    color: var(--orange);
+    background-color: var(--blue);
+    padding: 1em;
+}
+
 nav ul li a {
     color:var(--blue);
     padding: 15px;
@@ -85,6 +93,9 @@ li, p, a {
     margin: 10px 10px;
     text-align: center;
     height: 200px;
+}
+.article{
+    padding: 1em;
 }
 .articleImg{
     max-width: 90%;
