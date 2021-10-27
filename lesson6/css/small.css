@@ -80,8 +80,9 @@ li, p, a {
 .PrestonCover {
     grid-row: 1 / 2;
     width: 100%;
+    
 }
-.weatherSummaryTitle {
+.weatherSummaryReport {
     grid-row: 2/3;
     background-color: gray;
     margin: 10px 10px;
