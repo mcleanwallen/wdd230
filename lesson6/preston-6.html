@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Weather website, started in week 4" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <title>McWeather On Demand</title>
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+  </head>
+  <body>
+    <div id="mainBody">
+      <header>
+        <p id="saturdayPancakes">
+          Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the
+          city park pavilion
+        </p>
+        <img
+          class="logo"
+          alt="partly cloudy logo"
+          src="images/McWeatherName.png"
+        />
+        <div class="headerTitle">
+          <h1>McWeather - On Demand</h1>
+          <h2>A reliable, ad-free, community weather site.</h2>
+        </div>
+        <nav>
+          <a class="hamButton" href="#" onclick="toggleMenu()">&#9776;</a>
+          <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <p><a href="#">Home</a> > <a href="preston-6.html">Preston</a></p>
+        <h2>Preston, Idaho</h2>
+        <section class="weatherSummary">
+          <!--<img class="PrestonCover" alt = "Preston Lakefront" src="images\wdd230_image_franklinOriginal950px.jpeg">-->
+          <picture class="PrestonCover">
+            <source
+              srcset="images\wdd230_image_franklin375.jpeg"
+              media="(max-width: 1049px)"
+            >
+            <img src="images/wdd230_image_franklinOriginal950px.jpeg" alt="Preston Lakefront">
+          </picture>
+
+          <div class="weatherSummaryReport">
+            <h3>Weather Summary</h3>
+            <p>
+              Currently: Rainy<br />
+              High:<a id="normalTemp">54</a> F<br />
+              Wind Chill: <a id="windchillTemp"></a> F<br />
+              Humidity: 95%<br />
+              Wind Speed: <a id="wind">12</a> mph
+            </p>
+          </div>
+        </section>
+        <section class="fiveDay">
+          <h3 class="fiveDayTitle">5-Day Forecast</h3>
+          <div class="day"></div>
+          <div class="day"></div>
+          <div class="day"></div>
+          <div class="day"></div>
+          <div class="day"></div>
+        </section>
+        <section class="article">
+          <h3>Article</h3>
+          <img
+            src="images/McWeatherName.png"
+            alt="logo image"
+            class="articleImg"
+          />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit lesse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+            sed quia non numquam eius modi tempora incidunt ut labore et dolore
+            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+            aliquid ex ea commodi consequatur? Quis autem vel eum iure
+            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+            pariatur?
+          </p>
+        </section>
+        <section class="contact-info">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23683.80264589418!2d-111.89895096396366!3d42.097289724794614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7c244bc9bcf%3A0x5dc50d84ca1e21ea!2sPreston%20High%20School!5e0!3m2!1sen!2sus!4v1634398440618!5m2!1sen!2sus"
+            width="500"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <div class="contact-words">
+            <h3>Contact Information</h3>
+            <p>Address: Preston, ID</p>
+            <p>Phone: 208-111-1111</p>
+            <p>Email: emailme@email.com</p>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              id="facebook-icon"
+            >
+              <img
+                src="https://byui-cit.github.io/wdd130/images/icons/color/facebook.png"
+                alt="facebook link"
+              />
+            </a>
+            <a href="https://www.instagram.com" target="_blank" id="insta-icon">
+              <img
+                src="https://byui-cit.github.io/wdd130/images/icons/color/instagram.png"
+                alt="instagram link"
+              />
+            </a>
+            <a href="https://www.youtube.com" target="_blank" id="youtube-icon">
+              <img
+                src="https://byui-cit.github.io/wdd130/images/icons/color/youtube.png"
+                alt="youtube link"
+              />
+            </a>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div>
+          &#169; <a id="currentYear"></a> | McLean W. Allen | Colorado |
+          BYU-Idaho Online
+        </div>
+        <div>Current Date: <a id="lastModified"></a></div>
+      </footer>
+    </div>
+    <script
+     src="js/windchill.js"></script>
+    <script src="js/preston-6.js"></script>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+        WebFont.load({
+        google: {
+          families: [
+          'Playfair Display','Yaldevi'
+          ]
+        }
+      });
+    </script>
+  </body>
+</html>
