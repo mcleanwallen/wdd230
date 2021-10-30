@@ -6,19 +6,10 @@ document.getElementById('currentYear').innerHTML =  d.getFullYear();
 
 document.getElementById('lastModified').innerHTML = d.getDate() + months[d.getMonth()] + d.getFullYear();
 
-
-//Preston Pancakes Display
-
-
-  var x = document.getElementById("saturdayPancakes");
-  if (d.getDay() !== 5) {
-      x.style.display = "none";
-  }
-
 //Responsive Menu
 
 const hambutton = document.querySelector('.hamButton');
-const mainnav = document.querySelector('.navigation')
+const mainnav = document.querySelector('.navigation');
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 

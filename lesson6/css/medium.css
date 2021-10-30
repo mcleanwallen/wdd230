@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 650px) {
     header {
         display: grid;
         grid-template-columns: 1fr 4fr;
@@ -118,7 +118,7 @@
     }
     .galleryPics{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 1em;
     }
     .galleryPics picture img{

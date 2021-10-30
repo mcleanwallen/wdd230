@@ -58,7 +58,7 @@ li a {
     color:var(--blue);
     padding: 15px;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 3em;
 }
 footer {
     text-align: center;
@@ -116,4 +116,20 @@ iframe{
     max-width: 95%;
     margin: auto;
     margin-left: 10px;
+}
+.galleryPics{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
+.galleryPics picture{
+    margin: auto;
+}
+.galleryPics picture img{
+    max-width: 100%;
+    max-height: auto;
+}
+main{
+    padding: 1em;
+    background-color: rgb(218, 216, 216);
 }
