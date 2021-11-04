@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Building a table in week 8">
+    <title>Table Build</title>
+    <link rel="stylesheet" href="css/tablebuild.css">
+  </head>
+  <body>
+      <header>
+          <h1>Table Build</h1>
+      </header>
+      <main>
+          <table>
+          <thead>
+              <tr class="teal">
+                  <th class="title" colspan="3">ACME Wildwest</th>
+              </tr>
+              <tr class="darkblue">
+                  <th class="coltitle">Period</th>
+                  <th class="coltitle">Sales</th>
+                  <th class="coltitle">Sales Goal</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr class="offwhite">
+                  <td>August</td>
+                  <td>$3,590</td>
+                  <td>$4,000</td>
+              </tr>
+              <tr class="offgreen">
+                  <td>September</td>
+                  <td>$4,420</td>
+                  <td>$5,000</td>
+              </tr>
+              <tr class="offwhite">
+                <td>October</td>
+                <td>$4,870</td>
+                <td>$5,000</td>
+            </tr>
+            <tr class="offgreen">
+                <td>November</td>
+                <td>$8,610</td>
+                <td>$7,500</td>
+            </tr>
+            <tr class="offwhite">
+                <td>Black Friday</td>
+                <td colspan="2">$3,200</td>
+            </tr>
+            <tr class="offgreen">
+                <td>December</td>
+                <td>$6,820</td>
+                <td>$7,500</td>
+            </tr>
+          </tbody>
+          <tfoot>
+              <tr class="teal foot">
+                  <td id="smallerFooter" colspan="3">Compiled 12.20.2020 by bRauls</td>
+                </tr>
+          </tfoot>
+          </table>
+          <p> I didn't resize the table for mobile view, because there aren'y many viewports that have a view of less than 300px and this one fits the screen at 275px very well.</p>
+      </main>
+      <footer>
+
+      </footer>
+  </body>
+</html>

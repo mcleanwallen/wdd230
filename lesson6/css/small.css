@@ -127,9 +127,19 @@ iframe{
 }
 .galleryPics picture img{
     max-width: 100%;
-    max-height: auto;
+    box-shadow: 2px 2px 2px 2px #011e2c;
 }
 main{
     padding: 1em;
     background-color: rgb(218, 216, 216);
 }
+
+article img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  
