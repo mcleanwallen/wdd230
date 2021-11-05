@@ -84,7 +84,7 @@ li, p, a {
 }
 .weatherSummaryReport {
     grid-row: 2/3;
-    background-color: gray;
+    background-color: rgb(236, 232, 232);
     margin: 10px 10px;
     text-align: center;
     height: 200px;
@@ -99,7 +99,7 @@ li, p, a {
     max-width: 90%;
 }
 .day {
-    background-color: gray;
+    background-color: rgb(236, 232, 232);
     height: 170px;
     margin: 10px;
     text-align: center;
@@ -131,7 +131,7 @@ iframe{
 }
 main{
     padding: 1em;
-    background-color: rgb(218, 216, 216);
+    background-color: rgb(255, 251, 251);
 }
 
 article img[data-src] {

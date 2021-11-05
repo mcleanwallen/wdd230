@@ -54,7 +54,7 @@
     }*/
     main {
         grid-template-columns: repeat(5, 1fr);
-        background-color: rgb(218, 216, 216);
+        background-color: rgb(236, 232, 232);
         padding: 1em;
         margin: auto;
         max-width: 950px;
@@ -86,7 +86,7 @@
     }
     .day {
         grid-row: 2 /3;
-        background-color: gray;
+        background-color: lightgrey;
         height: 170px;
         margin: 10px;
     }
@@ -95,7 +95,7 @@
     }
     .article {
         padding: 10px;
-        background-color: gray;
+        background-color: lightgrey;
     }
     .article img {
         width: 250px;
