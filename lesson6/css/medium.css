@@ -117,12 +117,9 @@
         grid-row: 1/2;
     }
     .galleryPics{
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1em;
     }
     .galleryPics picture img{
         max-width: 100%;
-        max-height: auto;
     }
 }

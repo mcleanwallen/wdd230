@@ -125,10 +125,7 @@ iframe{
 .galleryPics picture{
     margin: auto;
 }
-.galleryPics picture img{
-    max-width: 100%;
-    box-shadow: 2px 2px 2px 2px #011e2c;
-}
+
 main{
     padding: 1em;
     background-color: rgb(255, 251, 251);

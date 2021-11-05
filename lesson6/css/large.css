@@ -117,12 +117,10 @@
         grid-row: 1/2;
     }
     .galleryPics{
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1em;
     }
     .galleryPics picture img{
         max-width: 100%;
-        max-height: auto;
+        box-shadow: 2px 2px 2px 2px #011e2c;
     }
 }
