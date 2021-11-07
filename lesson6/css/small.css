@@ -150,15 +150,20 @@ article img {
       border: 1px solid var(--blue);
       border-radius: 10px;
       padding: .5rem 2%;
+      text-align: center;
   }
 
-  form label.top {
+  form label.top, 
+  form div.top{
       display: block;
       padding-top: 1rem;
       font-size: .87rem;
   }
 
-  form label.top input, form label.top select, form label.top textarea{
+  form label.top input, 
+  form label.top select, 
+  form label.top textarea, 
+  form div.top input{
       display: block;
       font-size: 1rem;
       border: solid 1px var(--blue);
@@ -167,6 +172,7 @@ article img {
       color: var(--blue);
       width: 90%;
       max-width: 20rem;
+      margin: auto;
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
