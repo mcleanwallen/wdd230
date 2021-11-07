@@ -140,3 +140,58 @@ article img {
     transition: filter 0.5s;
   }
   
+  
+  
+  
+  
+  /* FORM */
+  form {
+      margin: 2rem 0;
+      border: 1px solid var(--blue);
+      border-radius: 10px;
+      padding: .5rem 2%;
+  }
+
+  form label.top {
+      display: block;
+      padding-top: 1rem;
+      font-size: .87rem;
+  }
+
+  form label.top input, form label.top select, form label.top textarea{
+      display: block;
+      font-size: 1rem;
+      border: solid 1px var(--blue);
+      border-radius: 4px;
+      padding: .75rem;
+      color: var(--blue);
+      width: 90%;
+      max-width: 20rem;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+  }
+
+  form label.sbs {
+      display: block;
+      padding: .75rem 0;
+  }
+
+  form input.submitBtn {
+      border: none;
+      background-color: var(--blue);
+      color: var(--orange);
+      border-radius: 1rem;
+      padding: .75rem 1.5rem;
+      margin: 1rem 0 1rem 0;
+      width: 90%;
+      max-width: 20rem;
+  }
+
+  form label.top input:required {
+      border-left: red solid 5px;
+  }
+
+  form label.top input:required:valid {
+      border-left: greenyellow solid 5px;
+  }

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A gallery of pictures that show relevant local weather."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <title>McWeather On Demand</title>
+    <link rel="stylesheet" href="../lesson6/css/small.css" />
+    <link rel="stylesheet" href="../lesson6/css/medium.css" />
+    <link rel="stylesheet" href="../lesson6/css/large.css" />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+  </head>
+  <body>
+    <div id="mainBody">
+      <header>
+        <img
+          class="logo"
+          alt="partly cloudy logo"
+          src="../lesson6/images/McWeatherName350px.png"
+        />
+        <div class="headerTitle">
+          <h1>McWeather - On Demand</h1>
+          <h2>A reliable, ad-free, community weather site.</h2>
+        </div>
+        <nav>
+          <a class="hamButton" href="#">&#9776;</a>
+          <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <p>
+          <a href="#">Home</a> > <a href="stormcenter.html">Storm Center</a>
+        </p>
+        <h3>Storm Center</h3>
+        <form>
+          <label class="top">Full Name: <input type="text" name="fullname" required /></label>
+          <label class="top">Email: <input type="email" name="email" placeholder="mac@mcweather.com" /></label>  
+          <label class="top">Phone Number: <input type="tel" name="phone" required /></label>
+          <label class="top">Zip Code: <input type="number" name="zip" required /></label>
+          <label class="top">Storm Date: <input type="date" name="stormdate"></label>
+          <label class="top">Storm Type: 
+            <select name="stormtype">
+                <option value="flashFlood">Flash Flood</option>
+                <option value="hail">Hail</option>
+                <option value="hurricane">Hurricane</option>
+                <option value="thunderstorm">Thunderstorm</option>
+                <option value="tornado">Tornado</option>
+              </select>
+          </label>
+          <label class="top">Storm Severity: 
+          <input
+            type="range"
+            name="stormseverity"
+            value="5"
+            min="1"
+            max="10"
+            step="1"
+            list="tickmarks"
+            oninput="adjustRating(this.value)"
+            onchange="adjustRating(this.value)"
+          />
+          <span id="ratingvalue">5</span>
+          <datalist id="tickmarks">
+            <option value="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+          </datalist>
+          </label>
+          <label class="top">Storm Region: 
+            <select name="region">
+                <option value="" disabled>Select Region ...</option>
+                <option value="preston">Preston</option>
+                <option value="sodaSprings">Soda Springs</option>
+                <option value="fishHaven">Fish Haven</option>
+            </select>
+          </label>
+          <label class="top">User In-Danger Level: 
+              <label class="sbs">No<input type="radio"  checked="checked" name="danger" value="no"></label>
+              <label class="sbs">Maybe<input type="radio" name="danger" value="maybe"></label>
+              <label class="sbs">Yes<input type="radio" name="danger" value="yes"></label>
+            </label>
+           <label class="top">
+               Additional Info
+               <textarea name="additionalInfo" placeholder="Any additional info here."></textarea>
+            </label>
+           
+           <input class="submitBtn" type="submit" value="Submit Form">
+        </form>
+      </main> 
+      <footer>
+        <div>
+          &#169; <a id="currentYear"></a> | McLean W. Allen | Colorado |
+          BYU-Idaho Online
+        </div>
+        <div>Current Date: <a id="lastModified"></a></div>
+      </footer>
+    </div>
+    <script src="js/lazyload.js"></script>
+    <script src="js/gallery-7.js"></script>
+    <script src="js/stormcenter.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </body>
+</html>
