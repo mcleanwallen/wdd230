@@ -1,0 +1,31 @@
+h1, footer {
+    text-align: center;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin: 2em;
+}
+section {
+    text-align: center;
+    background-color: coral;
+    border: 1px solid black;
+}
+h1, h2, footer {
+    color:rgb(9, 77, 9);
+}
+p {
+    margin: 0;
+}
+img {
+    margin: .75em;
+    max-width: 250px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 1175px) {
+    .cards{
+        grid-template-columns: 1fr;
+    }
+}
