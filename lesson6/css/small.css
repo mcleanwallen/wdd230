@@ -201,3 +201,22 @@ article img {
   form label.top input:required:valid {
       border-left: greenyellow solid 5px;
   }
+
+  .homePageTown {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+.homePageTown section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    background-color: var(--orange);
+}
+.homePageTown .townInfo {
+    text-align: center;
+}
+.homePageTown img {
+    width: 306px;
+    margin: auto;
+}
