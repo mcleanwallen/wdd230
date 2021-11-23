@@ -103,6 +103,7 @@ li, p, a {
     height: 170px;
     margin: 10px;
     text-align: center;
+    padding: 1em;
 }
 .contact-info{
     display:grid;
