@@ -16,7 +16,7 @@ fetch(requestURL)
     document.getElementById('wind').textContent = wind;
     if ((temp <= 50) && (wind > 3)) 
     {
-      document.getElementById('windchillTemp').textContent = jsonObject.daily[0].feels_like.day;
+      document.getElementById('windchillTemp').textContent = " "+jsonObject.daily[0].feels_like.day;
     }
     // 5-day Forecast
     for (let i = 1; i < 6; i++ ) {
