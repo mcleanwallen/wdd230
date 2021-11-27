@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Yaldevi&display=swap');
+/*    
+font-family: 'Playfair Display', serif;
+font-family: 'Yaldevi', sans-serif;
+*/
+
+:root {
+    --lightblue: #5b82ec;
+    --orange: #f8a700;
+    --blue: #011e2c;
+  }
+
+body {
+    background-color: var(--lightblue);
+    color: var(--blue);
+}
+.logo {
+    max-width: 350px;
+    height: auto;
+    display:block;
+    margin: auto;
+}
+
+#saturdayPancakes{
+    text-align: center;
+    color: var(--orange);
+    background-color: var(--blue);
+    padding: 1em;
+}
+
+nav ul li a {
+    color:var(--blue);
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+nav ul li a:hover {
+    background-color: var(--orange);
+    padding: 15px;
+}
+nav {
+    margin: 0 auto;
+    max-width: 1004px;
+    text-align: center;
+}
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+li a {
+    display: block;
+  }
+.responsive {
+    display: none;
+}
+.hamButton {
+    color:var(--blue);
+    padding: 15px;
+    text-decoration: none;
+    font-size: 3em;
+}
+footer {
+    text-align: center;
+}
+h1, h2, h3, h4 {
+    font-family: 'Yaldevi', sans-serif;
+}
+li, p, a {
+    font-family: 'Playfair Display', serif;   
+}
+
+.headerTitle {
+    text-align: center;
+}
+.weatherSummary {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.PrestonCover {
+    grid-row: 1 / 2;
+    width: 100%;
+    
+}
+.weatherSummaryReport {
+    grid-row: 2/3;
+    background-color: rgb(236, 232, 232);
+    margin: 10px 10px;
+    text-align: center;
+    height: 200px;
+}
+.fiveDayTitle{
+    text-align: center;
+}
+.article{
+    padding: 1em;
+}
+.articleImg{
+    max-width: 90%;
+}
+.day {
+    background-color: rgb(236, 232, 232);
+    height: 170px;
+    margin: 10px;
+    text-align: center;
+    padding: 1em;
+}
+.contact-info{
+    display:grid;
+}
+.contact-words{
+    grid-row:1/2;
+    text-align: center;
+}
+iframe{
+    grid-row: 2/3;
+    max-width: 95%;
+    margin: auto;
+    margin-left: 10px;
+}
+.galleryPics{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
+.galleryPics picture{
+    margin: auto;
+}
+
+main{
+    padding: 1em;
+    background-color: rgb(255, 251, 251);
+}
+
+article img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  
+  
+  
+  
+  
+  /* FORM */
+  form {
+      margin: 2rem 0;
+      border: 1px solid var(--blue);
+      border-radius: 10px;
+      padding: .5rem 2%;
+      text-align: center;
+  }
+
+  form label.top, 
+  form div.top{
+      display: block;
+      padding-top: 1rem;
+      font-size: .87rem;
+  }
+
+  form label.top input, 
+  form label.top select, 
+  form label.top textarea, 
+  form div.top input{
+      display: block;
+      font-size: 1rem;
+      border: solid 1px var(--blue);
+      border-radius: 4px;
+      padding: .75rem;
+      color: var(--blue);
+      width: 90%;
+      max-width: 20rem;
+      margin: auto;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+  }
+
+  form label.sbs {
+      display: block;
+      padding: .75rem 0;
+  }
+
+  form input.submitBtn {
+      border: none;
+      background-color: var(--blue);
+      color: var(--orange);
+      border-radius: 1rem;
+      padding: .75rem 1.5rem;
+      margin: 1rem 0 1rem 0;
+      width: 90%;
+      max-width: 20rem;
+  }
+
+  form label.top input:required {
+      border-left: red solid 5px;
+  }
+
+  form label.top input:required:valid {
+      border-left: greenyellow solid 5px;
+  }
+
+  .homePageTown {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+.homePageTown section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    background-color: var(--orange);
+}
+.homePageTown .townInfo {
+    text-align: center;
+}
+.homePageTown img {
+    width: 306px;
+    margin: auto;
+}
