@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Aurora Chamber of Commerce Landing Page"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <title>Aurora - Chamber of Commerce</title>
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+  </head>
+  <body>
+      <header>
+          <img class="bannerImg" src="img/auroraPano900.jpg">
+          <h1>Aurora Chamber of Commerce</h1>
+          <h2>An All-American City</h2>
+          <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aurora.html">Aurora</a></li>
+                  <li><a href="join.html">Join</a></li>
+                  <li><a href="#">Directory</a></li>
+                  <li><a href="#">Contact Us</a></li>
+              </ul>
+          </nav>
+      </header>
+      <main class="join">
+        <form action="thanks.html">
+            <label class="top">First Name: <input type="text" name="firstname" required /></label>
+            <label class="top">Last Name: <input type="text" name="lastname" required /></label>
+            <label class="top">title: <input type="text" name="title" required /></label>
+            <label class="top">Email: <input type="email" name="email" placeholder="mac@mcweather.com" required /></label>  
+            <label class="top">Cell Phone: <input type="tel" name="phone" /></label>
+            <label class="top">Business Name: <input type="text" name="bus-name" required /></label>
+            <label class="top">Address: <input type="text" name="bus-address"></label>
+            <label class="top">Storm Region: 
+              <select name="region">
+                  <option value="" disabled>Select Region ...</option>
+                  <option value="preston">Preston</option>
+                  <option value="sodaSprings">Soda Springs</option>
+                  <option value="fishHaven">Fish Haven</option>
+              </select>
+            </label>
+            <div class="top">User In-Danger Level: 
+                <label class="sbs">No<input type="radio"  checked="checked" name="danger" value="no"></label>
+                <label class="sbs">Maybe<input type="radio" name="danger" value="maybe"></label>
+                <label class="sbs">Yes<input type="radio" name="danger" value="yes"></label>
+            </div>
+             <label class="top">
+                 Additional Info
+                 <textarea name="additionalInfo" placeholder="Any additional info here."></textarea>
+              </label>
+             
+             <input class="submitBtn" type="submit" value="Join Now">
+          </form>          
+      </main>
+      <footer>
+          <div class="contactUs">
+              <h3>Contact Us</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13008.062565030252!2d-104.82047835772765!3d39.706083650617146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c62e7994f7e01%3A0x46ad0a2862f81a61!2sAurora%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1639362641983!5m2!1sen!2sus" width="386" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="socialMedia">
+              <h3>Social Media</h3>
+          </div>
+          <p>*Not an official website for the Aurora Chamber of Commerce.</p>
+      </footer>
+  </body>
+</html>
