@@ -4,57 +4,19 @@
         margin: auto;
         background-color: var(--blue);
     }
-    header, main, footer {
-        background-color: var(--gray);
-    }
-    h1, h2, h3, h4, h5 {
-        text-align: center;
-        color: var(--darkgray);
-    }
-    nav li{
-        margin: auto;
-        padding: 1em;
-    }
+    
     ul {
         display: flex;
-        list-style-type: none;
-        padding: 0;
-        overflow: hidden;
-        margin: 0px 1em;
-        border: 2px solid var(--darkgray);
     }
-    li a {
-        text-align: center;
-        text-decoration: none;
-        font-size: 1.2em;
-        color: var(--darkgray);
-    }
-    nav li:hover {
-        background-color: var(--red);
-    }
-    .bannerImg {
-        width: 100%;
-    }
-    .index, footer {
+    .index, footer, .contact-us {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 1.5em;
-    }
-    main, footer {
-        padding: 1.5em 1em;
     }
     footer {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 1.5em;
-        padding: 0 1em 1.5em 1em;
-    }
-    h3 {
-        margin-top: 0px;
-    }
-    main div, footer div {
-        border: 2px solid var(--darkgray);
-        padding: 1em;
+        
     }
     .chamberMission {
         grid-column: 1 / 3;
@@ -89,5 +51,18 @@
     /*freedomMemorial*/
     .freedomMemorial {
         width: 100%;
+    }
+
+    /*FORM*/
+    .join-form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-form {
+        grid-column: 3 / 5;
+    }
+    form input.submitBtn {
+        grid-column: 1/3;
+        margin: auto;
     }
 }

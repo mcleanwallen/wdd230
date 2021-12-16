@@ -1,0 +1,61 @@
+{
+    "business": [
+        {
+            "name":"Nelnet",
+            "type":"Information Technology",
+            "phone-number":"303-123-1234",
+            "street-address":"3015 S Parker Rd",
+            "city-state-zip":"Aurora, CO 80014",
+            "about":"Nelnet, Inc. , headquartered in Lincoln, Nebraska, is a diverse company with a focus on delivering education-related products and services and student loan asset management. "
+        },
+        {
+            "name":"TeamLogic IT",
+            "Type":"Information Technology",
+            "phone-number":"303-123-1234",
+            "street-address":"14211 E 4th Ave",
+            "city-state-zip":"Aurora, CO 80011",
+            "about":"Teamlogic IT is an award winning IT provider of managed IT services, 24x7 help desk, IT support, cloud migrations, IT services, business applications, network services. We are a one stop shop for IT. "
+        },
+        {
+            "name":"Latitude Sports Marketing, LLC",
+            "Type":"Information Technology",
+            "phone-number":"303-123-1234",
+            "street-address":"8101 E Belleview Ave",
+            "city-state-zip":"Denver, CO 80237",
+            "about":"Latitude Sports Marketing is a full service sports marketing company based in Denver, CO. LSM was established to provide sports memorabilia products to retailers, corporations, and charities."
+
+        },
+        {
+            "name":"Cherry Creek Retirement Village",
+            "Type":"Senior Services",
+            "phone-number":"303-123-1234",
+            "street-address":"14555 E Hampden Ave",
+            "city-state-zip":"Aurora, CO 80014",
+            "about":"We take care of the old folks!"
+        },
+        {
+            "name":"Snack Voyage",
+            "Type":"Food Services",
+            "phone-number":"303-123-1234",
+            "street-address":"14566 E Baltic Pl",
+            "city-state-zip":"Aurora, CO 80011",
+            "about":"We help businesses engage with their audience through our corporate gift boxes. Give the gift of travel with our specially curated international snack boxes."
+        },
+        {
+            "name":"Schomp Subaru",
+            "Type":"Automotive Services",
+            "phone-number":"303-123-1234",
+            "street-address":"580 S Havana St",
+            "city-state-zip":"Aurora, CO 80012",
+            "about":"Love Subaru."
+        },
+        {
+            "name":"Colorado Air and Space Port",
+            "Type":"Aviation Services",
+            "phone-number":"303-123-1234",
+            "street-address":"5200 Front Range Pkwy",
+            "city-state-zip":"Watkins, CO 80137",
+            "about":"Colorado Air and Space Port is located just 6 miles SE of DEN, while providing the same convenience in connection to DEN airline flights. We provide Shuttle Service to DEN, which only takes 18 min."
+        }
+    ]
+}
