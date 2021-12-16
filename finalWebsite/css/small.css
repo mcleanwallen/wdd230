@@ -12,9 +12,11 @@
 }
 h1, h2, h3, h4, h5 {
     font-family: 'Bitter', serif;
+    color: var(--darkgray);
 }
 p, li {
     font-family: 'Source Sans Pro', sans-serif;
+    color: var(--darkgray);
 }
 
 
@@ -48,14 +50,23 @@ li a {
 nav li:hover {
     background-color: var(--red);
 }
+.weather {
+    background-color: var(--red);
+}
 .day {
     text-align: center;
 }
 .day h4 {
     margin: 1em 0 0 0;
+    color: var(--blue);
 }
 .day p {
     margin: 0;
+    color: var(--gray);
+}
+.businessAd img {
+    margin: auto;
+    display: block;
 }
 .bannerImg {
     width: 100%;
@@ -63,10 +74,13 @@ nav li:hover {
 main, footer {
     padding: 1.5em 1em;
 }
-.index, footer, .contact-us {
+.index, footer, .contact-us, section.cards {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.5em;
+}
+section.cards div {
+    text-align: center;
 }
 footer {
     padding: 0 1em 1.5em 1em;
@@ -87,8 +101,19 @@ main div, footer div {
     font-size: 1.1em;
 }
 
+#fullSpan span{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#fullSpan span a {
+    margin: auto;
+}
 table {
     margin: auto;
+}
+/*freedomMemorial*/
+.freedomMemorial {
+    width: 100%;
 }
 
   /* FORM */
